@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hotal</title>
+    <link rel="stylesheet" href="htlmngment.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="animate.min.css">
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-md fixed-top navbar-light">
+ <div class="container-fluid">
+  <img src="Hotel.png" class="rounded-circle" width="55" alt="">
+  <a href="#" class="mx-4 navbar-brand text-white  ">HOTAL BOOKING</a>
+  <button class="navbar-toggler" data-bs-toggler="collapse" data-bs-target="#myMenu">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse collapse" id="myMenu">  
+    <ul class="navbar-nav w-100 justify-content-end">
+      <li class="nav-item mx-3 text-white fw-bold">
+        image
+      </li>
+      <li class="nav-item mx-3 text-white fw-bold">
+        contact
+      </li>
+      <li class="nav-item mx-3 text-white fw-bold">
+        login
+      </li>
+    </ul>
+  </div>
+ </div>
+  </nav>
+<br>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <!--  nav tab -->
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a href="#signup" class="nav-link" data-bs-toggle="tab">signup</a>
+          </li>
+          <li class="nav-item">
+            <a href="#login" class="nav-link  active" data-bs-toggle="tab">login</a>
+          </li>
+        </ul>
+        <!-- nav panes -->
+        <div class="tab-content">
+          <div class="tab-pane container mt-3" id="signup">
+            <img src="hotalm.jpg" class="w-25" alt="">
+            <form class="reg-form">
+          <input required name="fullName" type="text" placeholder="fullName" class=" mb-2 form-control">
+          <input required name="hotalName" type="text" placeholder="HotalName" class=" mb-2 form-control">
+          <input required name="totalRoom" type="text" placeholder="No of Hotal Room" class=" mb-2 form-control">
+          <input required name="mobile" type="number" placeholder="mobile number" class=" mb-2 form-control">
+          <input required name="email" type="email" placeholder="Enter email" class=" mb-2 form-control">
+          <input required name="password" type="password" placeholder="password" class=" mb-2 form-control">
+          <button type="submit" class="btn btn-primary mb-3 w-100">Resiater</button>
+
+      </form>
+          </div>
+          <div class="tab-pane  active container mt-3" id="login">
+            <!-- <img src="hotalm.jpg" class="w-25" alt="">  -->
+            <form class="login-form">
+          <input  type="email" placeholder="Enter email" class=" mb-3 form-control">
+          <input  type="password" placeholder="password" class=" mb-3 form-control">
+          <button type="submit" class="btn btn-primary mb-3 w-100">Login</button>
+
+      </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 img-tag">
+        <img style="margin-top: 80px;" src="https://cdn0.weddingwire.in/vendor/1860/3_2/1920/jpg/hotels-hotel-dng-the-grand-event-space-7_15_371860-162444026118188.jpeg"  width="600" alt="">
+      </div>
+      
+    </div>
+  </div>
+
+   
+    <!-- start js coding -->
+     <script src="htlmngment.js"></script>
+  </body>
+</html>
